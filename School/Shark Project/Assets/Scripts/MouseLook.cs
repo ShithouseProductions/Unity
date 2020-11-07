@@ -6,9 +6,9 @@ public class MouseLook : MonoBehaviour
 {
 
     [SerializeField] protected float mouseSensitivity = 50f;
-    [SerializeField] protected Transform playerBody;
+    [SerializeField] protected Transform cameraBody;
+    [SerializeField] protected Transform capsuleBody;
     [SerializeField] protected float xRotation = 0f;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +27,8 @@ public class MouseLook : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * mouseX);
+
+        cameraBody.Rotate(Vector3.up * mouseX);
 
         
     }

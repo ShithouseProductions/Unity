@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 100
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 101
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,19 +365,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Games\Shooter Game Tutorial
+  m_LastProjectPath: D:\GitKrakenRepo\Unity\Private\Shooter Game Tutorial
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa330000
-    m_LastClickedID: 13226
+    m_SelectedIDs: a8330000
+    m_LastClickedID: 13224
     m_ExpandedIDs: 00000000a033000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -529,9 +529,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 962d0000
+      m_SelectedIDs: ac330000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6afbffff
+      m_ExpandedIDs: 66f9ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -591,9 +591,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.60445213, y: 6.6887846, z: -4.6576176}
+    m_Target: {x: 1.2151589, y: 4.101491, z: -3.222763}
     speed: 2
-    m_Value: {x: -0.60445213, y: 6.6887846, z: -4.6576176}
+    m_Value: {x: 1.2151589, y: 4.101491, z: -3.222763}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -643,9 +643,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.067918755, y: 0.9240767, z: -0.3214936, w: -0.19522104}
   m_Size:
-    m_Target: 10.715088
+    m_Target: 10.542727
     speed: 2
-    m_Value: 10.715088
+    m_Value: 10.542727
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -739,11 +739,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 866
-      height: 584
+      height: 563
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 433, y: 292}
+    m_Translation: {x: 433, y: 281.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -751,9 +751,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -433
-      y: -292
+      y: -281.5
       width: 866
-      height: 584
+      height: 563
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 866, y: 584}

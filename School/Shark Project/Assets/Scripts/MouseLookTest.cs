@@ -23,6 +23,9 @@ public class MouseLookTest : MonoBehaviour
         //here we call the "Main Camera" in the scene and tells it to link to the camera object cam in the script
         //this means that all rotations we do the cam object wil be applied to the "Main Camera"
         cam = Camera.main;
+
+        //Locks the cursor to the window
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame

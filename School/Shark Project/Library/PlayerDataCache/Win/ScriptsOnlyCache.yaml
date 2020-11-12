@@ -208,6 +208,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12606}
     - Class: 114
+      Script: {instanceID: 12898}
+    - Class: 114
       Script: {instanceID: 12960}
     - Class: 115
       Script: {instanceID: 0}
@@ -730,4 +732,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/GameWin.unity
-  playerPath: C:/Users/Oscar/Desktop/Test1/Scene4_Oscar_Konnander/Shark Project.exe
+  playerPath: C:/Users/Oscar/Desktop/Test1/Shark Project.exe

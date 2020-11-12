@@ -15,7 +15,7 @@ public class MouseLookTest : MonoBehaviour
     private float yRotation = 0.0f;
 
     //this creates a cam object which you can link to the actualy camera in the scene 
-    private Camera cam;
+    public Camera cam;
     
     // Start is called before the first frame update
     void Start()

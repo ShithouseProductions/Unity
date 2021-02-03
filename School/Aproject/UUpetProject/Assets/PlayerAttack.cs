@@ -32,10 +32,7 @@ public class PlayerAttack : MonoBehaviour
 	}
 	void Shoot()
 	{
-		if (Input.GetKeyDown(KeyCode.Mouse0))
-		{
-			shot.Emit(1);
-		}
+		//if (Input.GetKeyDown(KeyCode.Mouse0)){shot.Emit(1);}
 	}
 
 	public void PlayerReceiveDamage (int dmg)

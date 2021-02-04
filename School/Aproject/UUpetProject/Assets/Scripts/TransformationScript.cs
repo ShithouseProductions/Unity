@@ -5,7 +5,7 @@ using UnityEngine;
 public class TransformationScript : MonoBehaviour
 {
     [SerializeField] protected float speed;
-    [SerializeField] protected Rigidbody2D rb;
+    [SerializeField] protected Rigidbody rb;
     
     // Start is called before the first frame update
     void Start()

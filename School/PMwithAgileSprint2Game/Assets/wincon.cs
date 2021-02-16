@@ -27,8 +27,7 @@ public class wincon : MonoBehaviour
     {
         if (timer <= timerWin && barrierHP >= barrierWin && killCounter >= killWin)
         {
-            //SceneManager.LoadScene(2);
-            Debug.Log("good boi");
+            SceneManager.LoadScene(3);
         }
 
     }
@@ -38,12 +37,14 @@ public class wincon : MonoBehaviour
     {
         if (timer >= timerWin && killCounter < killWin)
         {
-            Debug.Log("You Lose. You did not have enough kills before the timer ran out");
+            //Debug.Log("You Lose. You did not have enough kills before the timer ran out");
+            SceneManager.LoadScene(2);
         }
 
         if (barrierHP < barrierWin)
         {
-            Debug.Log("You Lose. Barrier Failed");
+            //Debug.Log("You Lose. Barrier Failed");
+            SceneManager.LoadScene(2);
         }
 
     }

@@ -21,6 +21,8 @@ public class EnemyAI : MonoBehaviour
 	public int dmgReceived = 1;
 	public int dmgDealed = 1;
 	private int currectHealth;
+	[Space]
+	public wincon callUpdate;
 
 	private void Start()
 	{
@@ -69,6 +71,7 @@ public class EnemyAI : MonoBehaviour
 		if (currectHealth <= 0)
 		{
 			print("enemy died");
+			callUpdate.KillCounter();
 			gameObject.SetActive(false);
 		}
 	}
@@ -90,6 +93,11 @@ public class EnemyAI : MonoBehaviour
 			gameObject.SetActive(false);
 			
 		}
+
+		if (collision.collider.name == "Barrier")
+        {
+			callUpdate.Barrier();
+        }
 	}
 
 	private void OnParticleCollision(GameObject other)

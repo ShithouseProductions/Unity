@@ -20,6 +20,7 @@ public class PlayerAttack : MonoBehaviour
 	{
 		Shoot();
 		DetermineSide();
+		Die();
 	}
 
 	void DetermineSide ()
@@ -38,5 +39,14 @@ public class PlayerAttack : MonoBehaviour
 	public void PlayerReceiveDamage (int dmg)
 	{
 		currentHealth -= dmg;
+	}
+
+	private void Die()
+	{
+		if (currentHealth <= 0)
+		{
+			Debug.Log("You Died");
+			//SceneManager.LoadScene(3);
+		}
 	}
 }

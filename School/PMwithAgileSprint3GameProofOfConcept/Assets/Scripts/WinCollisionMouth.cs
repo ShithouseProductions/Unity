@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class WinCollisionMouth : MonoBehaviour
 {
-    internal bool hit;
+    internal bool hitMouth;
     internal int timer;
     [SerializeField] protected int timerLimit;
+    [SerializeField] Animator animator;
+    [SerializeField] AudioFileManager AuM;
 
     private void FixedUpdate()
     {
-        if (hit == true)
+        if (hitMouth == true)
         {
             timer++;
         }
@@ -24,6 +26,8 @@ public class WinCollisionMouth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        hit = true;
+        hitMouth = true;
+        animator.SetBool("Hit", true);
+        AuM.Sound3();
     }
 }
